@@ -65,6 +65,29 @@ section h3 {
   background-color: #f9f9f9;
 }
 
+/* participants list styling */
+.participant-list {
+  margin: 10px 0 0 0;
+  padding-left: 0;
+  list-style-type: none;            /* hide bullet points */
+}
+.participant-list li {
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-participant {
+  cursor: pointer;
+  color: #c62828;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+.remove-participant:hover {
+  color: #8e0000;
+}
+
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
